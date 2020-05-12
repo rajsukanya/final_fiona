@@ -1,0 +1,18 @@
+language: "en"
+
+pipeline: "pretrained_embeddings_convert"
+
+policies:
+  - name: KerasPolicy
+    random_seed: 42
+    validation_split: 0
+  - name: MemoizationPolicy
+  - name: "FallbackPolicy"
+    nlu_threshold: 0.3
+    ambiguity_threshold: 0.1
+    core_threshold: 0.3
+    fallback_action_name: 'utter_fallback_message'
+
+  
+       
+

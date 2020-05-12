@@ -1,0 +1,456 @@
+{
+    "rasa_nlu_data": {
+        "common_examples": [
+            {
+                "text": "I am so irritated",
+                "intent": "anger",
+                "entities": []
+            },
+            {
+                "text": "My brother pissed me off today",
+                "intent": "anger",
+                "entities": []
+            },
+            {
+                "text": "I am so sick of my boss",
+                "intent": "anger",
+                "entities": []
+            },
+            {
+                "text": "My cat ruined my furniture",
+                "intent": "anger",
+                "entities": []
+            },
+            {
+                "text": "My brother didn’t clean up after himself",
+                "intent": "anger",
+                "entities": []
+            },
+            {
+                "text": "This place is a mess",
+                "intent": "anger",
+                "entities": []
+            },
+            {
+                "text": "I am so angry that she forgot my birthday",
+                "intent": "anger",
+                "entities": []
+            },
+            {
+                "text": "Why does this crap keep happening to me",
+                "intent": "anger",
+                "entities": []
+            },
+            {
+                "text": "She is so annoying",
+                "intent": "anger",
+                "entities": []
+            },
+            {
+                "text": "My relatives always ask me the same question",
+                "intent": "anger",
+                "entities": []
+            },
+            {
+                "text": "I am graduating in a few months!",
+                "intent": "anticipation",
+                "entities": []
+            },
+            {
+                "text": "I'm getting a new haircut tommorow. ",
+                "intent": "anticipation",
+                "entities": []
+            },
+            {
+                "text": "I can't wait for my package to come. ",
+                "intent": "anticipation",
+                "entities": []
+            },
+            {
+                "text": "I am going to see my long lost brother!",
+                "intent": "anticipation",
+                "entities": []
+            },
+            {
+                "text": "I am getting married tommorrow! ",
+                "intent": "anticipation ",
+                "entities": []
+            },
+            {
+                "text": "I can't wait to get my new car!",
+                "intent": "anticipation ",
+                "entities": []
+            },
+            {
+                "text": "I am going on vacation in a few months!",
+                "intent": "anticipation ",
+                "entities": []
+            },
+            {
+                "text": "I'm going to the amusement park with my friends this weekend!",
+                "intent": "anticipation ",
+                "entities": []
+            },
+            {
+                "text": "I can't wait for my birthday this year, it's going to be so much fun.",
+                "intent": "anticipation ",
+                "entities": []
+            },
+            {
+                "text": "My family is coming to visit soon and I am so excited!",
+                "intent": "anticipation ",
+                "entities": []
+            },
+            {
+                "text": "A bird pooped on me.",
+                "intent": "disgust",
+                "entities": []
+            },
+            {
+                "text": "I saw mice in my school building.",
+                "intent": "disgust",
+                "entities": []
+            },
+            {
+                "text": "There was hair in my food.",
+                "intent": "disgust",
+                "entities": []
+            },
+            {
+                "text": "I saw someone vomit on the side of the road.",
+                "intent": "disgust",
+                "entities": []
+            },
+            {
+                "text": "The hotel room I booked was dirty and smelled bad.",
+                "intent": "disgust",
+                "entities": []
+            },
+            {
+                "text": "That car just splashed me with dirty water.\n",
+                "intent": "disgust",
+                "entities": []
+            },
+            {
+                "text": "This homeless man is stinking up the whole train!",
+                "intent": "disgust",
+                "entities": []
+            },
+            {
+                "text": "I saw something that I didn't want to see. ",
+                "intent": "disgust",
+                "entities": []
+            },
+            {
+                "text": "I bought lunch from a restaurant and there was hair in my food",
+                "intent": "disgust",
+                "entities": []
+            },
+            {
+                "text": "A mouse just ran across my foot",
+                "intent": "disgust",
+                "entities": []
+            },
+            {
+                "text": "I can't afford to pay my rent, I do not know what to do.",
+                "intent": "fear",
+                "entities": []
+            },
+            {
+                "text": "I messed up at work and do not want to tell anyone because it's possible I will get in trouble.",
+                "intent": "fear",
+                "entities": []
+            },
+            {
+                "text": "There was a huge spider in the bathroom!",
+                "intent": "fear",
+                "entities": []
+            },
+            {
+                "text": "I crashed into the car in front of me. ",
+                "intent": "fear",
+                "entities": []
+            },
+            {
+                "text": "I have so much work to do and feel like I have no time to complete all of them in time.",
+                "intent": "fear",
+                "entities": []
+            },
+            {
+                "text": "I am scared about getting back my exam scores today because I think I failed.",
+                "intent": "fear",
+                "entities": []
+            },
+            {
+                "text": "My cousin is forcing me to go ziplining, but I have a fear of heights.",
+                "intent": "fear",
+                "entities": []
+            },
+            {
+                "text": "I am scared of going to the dentist. ",
+                "intent": "fear",
+                "entities": []
+            },
+            {
+                "text": "I think this man is stalking me.",
+                "intent": "fear",
+                "entities": []
+            },
+            {
+                "text": "Its 3am and I just heard a noise. ",
+                "intent": "fear",
+                "entities": []
+            },
+            {
+                "text": "I am good!",
+                "intent": "happiness",
+                "entities": []
+            },
+            {
+                "text": "I made a new friend today!",
+                "intent": "happiness",
+                "entities": []
+            },
+            {
+                "text": "I found a $20 bill!",
+                "intent": "happiness",
+                "entities": []
+            },
+            {
+                "text": "I got to have my favorite desert today after a long time.",
+                "intent": "happiness",
+                "entities": []
+            },
+            {
+                "text": "My supervisor informed me that I am getting a promotion.",
+                "intent": "happiness",
+                "entities": []
+            },
+            {
+                "text": "I got a new phone today.",
+                "intent": "happiness",
+                "entities": []
+            },
+            {
+                "text": "I had my first child.",
+                "intent": "happiness",
+                "entities": []
+            },
+            {
+                "text": "I had so much fun at the party!",
+                "intent": "happiness",
+                "entities": []
+            },
+            {
+                "text": "I got a new pet!",
+                "intent": "happiness",
+                "entities": []
+            },
+            {
+                "text": "I finally got the job of my dreams!",
+                "intent": "happiness",
+                "entities": []
+            },
+            {
+                "text": "I love playing badminton. ",
+                "intent": "love",
+                "entities": []
+            },
+            {
+                "text": "Shopping is one of my favorite things to do.",
+                "intent": "love",
+                "entities": []
+            },
+            {
+                "text": "I love roller coasters!",
+                "intent": "love",
+                "entities": []
+            },
+            {
+                "text": "I enjoy spending time outdoors. ",
+                "intent": "love",
+                "entities": []
+            },
+            {
+                "text": "I love to watch movies.",
+                "intent": "love",
+                "entities": []
+            },
+            {
+                "text": "I love to sleep.",
+                "intent": "love",
+                "entities": []
+            },
+            {
+                "text": "I feel very grateful for my family because they care for me so much.",
+                "intent": "love",
+                "entities": []
+            },
+            {
+                "text": "I love my wife so much. ",
+                "intent": "love",
+                "entities": []
+            },
+            {
+                "text": "I will always protect my son. ",
+                "intent": "love",
+                "entities": []
+            },
+            {
+                "text": "I'm in love.",
+                "intent": "love",
+                "entities": []
+            },
+            {
+                "text": "I'm going to take an exam soon.",
+                "intent": "nervous",
+                "entities": []
+            },
+            {
+                "text": "My first day of my new job is tomorrow.",
+                "intent": "nervous",
+                "entities": []
+            },
+            {
+                "text": "I have a job interview at 3pm.",
+                "intent": "nervous",
+                "entities": []
+            },
+            {
+                "text": "I got called to the principal's office. ",
+                "intent": "nervous",
+                "entities": []
+            },
+            {
+                "text": "I'm meeting my boyfriend's parents for the first time.",
+                "intent": "nervous",
+                "entities": []
+            },
+            {
+                "text": "I have to babysit my niece tomorrow, but I've never watched her on my own.",
+                "intent": "nervous",
+                "entities": []
+            },
+            {
+                "text": "I am not ready for it.",
+                "intent": "nervous",
+                "entities": []
+            },
+            {
+                "text": "I can't stop shaking while giving a presentation. \n",
+                "intent": "nervous",
+                "entities": []
+            },
+            {
+                "text": "I think I am going to pass out.",
+                "intent": "nervous",
+                "entities": []
+            },
+            {
+                "text": "I had a panic attack today",
+                "intent": "nervous",
+                "entities": []
+            },
+            {
+                "text": "I'm feeling tired. ",
+                "intent": "sadness",
+                "entities": []
+            },
+            {
+                "text": "I feel very lazy and did not get anything done today.",
+                "intent": "sadness",
+                "entities": []
+            },
+            {
+                "text": "My boyfriend/girlfriend does not want to be with me anymore and broke up with me.",
+                "intent": "sadness",
+                "entities": []
+            },
+            {
+                "text": "I lost my favorite pencil today.",
+                "intent": "sadness",
+                "entities": []
+            },
+            {
+                "text": "I fell down the stairs and broke my foot. ",
+                "intent": "sadness",
+                "entities": []
+            },
+            {
+                "text": "My cat went outside for fresh air one day, but never came back to the house.",
+                "intent": "sadness",
+                "entities": []
+            },
+            {
+                "text": "My grandfather just passed away.\n",
+                "intent": "sadness",
+                "entities": []
+            },
+            {
+                "text": "I don't think I can go on living anymore.",
+                "intent": "sadness",
+                "entities": []
+            },
+            {
+                "text": "I just found out that they ran out of my favorite product, ",
+                "intent": "sadness",
+                "entities": []
+            },
+            {
+                "text": "I feel sad",
+                "intent": "sadness",
+                "entities": []
+            },
+            {
+                "text": "I'm surprised I didn't burn the house down while trying to cook.",
+                "intent": "surprise",
+                "entities": []
+            },
+            {
+                "text": "I went to the circus for the first time and it was so cool!",
+                "intent": "surprise",
+                "entities": []
+            },
+            {
+                "text": "My friend acted weirdly today and I am not sure why.",
+                "intent": "surprise",
+                "entities": []
+            },
+            {
+                "text": "I received a brand new item today that I was not expecting.",
+                "intent": "surprise",
+                "entities": []
+            },
+            {
+                "text": "I won the lottery!",
+                "intent": "surprise",
+                "entities": []
+            },
+            {
+                "text": "My mom just walked into me using drugs.",
+                "intent": "surprise",
+                "entities": []
+            },
+            {
+                "text": "I just slipped and fell.",
+                "intent": "surprise",
+                "entities": []
+            },
+            {
+                "text": "I was taken aback. ",
+                "intent": "surprise",
+                "entities": []
+            },
+            {
+                "text": "I surprisingly did well on my quiz",
+                "intent": "surprise",
+                "entities": []
+            },
+            {
+                "text": "I was surprised to run into an old friend of mine",
+                "intent": "surprise",
+                "entities": []
+            }
+        ]
+    }
+}

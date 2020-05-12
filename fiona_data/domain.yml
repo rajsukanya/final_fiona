@@ -1,0 +1,105 @@
+intents:
+    - greet
+    - happiness
+    - anger
+    - fear
+    - anticipation
+    - disgust
+    - sadness
+    - surprise
+    - love
+    - nervous
+    - thankyou
+    - affirm
+    - goodbye
+
+responses:
+
+    utter_ask_mood:
+    - text: "Hello. How are you?"
+    - text: "Hi. How is it going today?"
+    - text: "Hi. How are you feeling?"
+    - text: "Hi. How would you say your day is going?"
+    - text: "Hey. What's your mood like at the moment?"
+    - text: "Hello, Welcome to Chatbot Fiona! How are you today?"
+    - text: "Welcome to Chatbot Fiona. How are you?"
+    - text: "Hi. Welcome to Chatbot Fiona! How are you doing?"
+
+    utter_why_happiness:
+    - text: "Why are you happy?"
+
+    utter_ack_happiness:
+    - text: "That is great"
+    
+    utter_why_anger:
+    - text: "Why are you angry?"
+
+    utter_ack_anger:
+    - text: "That is horrible"
+
+    utter_why_fear:
+    - text: "Why are you fearful?"
+    
+    utter_ack_fear:
+    - text: "Oh no, that is quite scary"
+    
+    utter_why_anticipation:
+    - text: "Why are you feeling anticipation?"
+    
+    utter_ack_anticipation:
+    - text: "That sounds exciting"
+    
+    utter_why_disgust:
+    - text: "Why are you disgusted?"
+    
+    utter_ack_disgust:
+    - text: "That is gross"
+    
+    utter_why_sadness:
+    - text: "Why are you feeling sad?"
+    
+    utter_ack_sadness:
+    - text: "That is sad"
+    
+    utter_why_surprise:
+    - text: "Why are you surprised?"
+    
+    utter_ack_surprise:
+    - text: "That is surprising"
+    
+    utter_why_love:
+    - text: "Why are you feeling love?"
+    
+    utter_ack_love:
+    - text: "That is amazing"
+    
+    utter_why_nervous:
+    - text: "Why are you feeling nervous?"
+    
+    utter_ack_nervous:
+    - text: "That sounds nerve-wracking"
+    
+    utter_encouragement:
+    - text: "Don't worry, you will do great!"
+    
+    utter_noproblem:
+    - text: "You are welcome!"
+    - text: "You're welcome"
+    - text: "No problem!"
+    
+    utter_goodbye:
+    - text: "Goodbye!"
+    - text: "Bye. Have a good day!"
+    - text: "Bye!"
+    - text: "Goodbye. Have a great day!"
+    - text: "Bye. Have a great day"
+
+    utter_fallback_message:
+    - text: "I am not sure what to do"
+
+actions:
+    - "action_summarize_with_passage"
+  
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
