@@ -558,9 +558,7 @@ class ActionSummarizeWithPassage(Action):
                             b[n] = 1
         if len(b) > 0:
             p = max(b, key=lambda x: x[1])
-            print('chosen sentiment: {}'.format(p))
             passage = self.choose_passage(p)
-            print('passage: -->{}<-->{}<-->{}<--'.format(passage[0], passage[1], passage[2])) 
             text = 'This conversation reminds of the passage {}. This was written by {}, in the work {}.'.format(passage[0], passage[1], passage[2])
         else:
             text = 'I\'m not sure what this conversation reminds me of.'
