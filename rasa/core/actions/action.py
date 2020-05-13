@@ -531,7 +531,8 @@ class ActionSummarizeWithPassage(Action):
          ('I raise my face to his, ready for the crush of his lips against mine, wanting to share more than these nervous breaths.',
           'Sarah Glenn Marsh',
           'Fear the Drowning Deep')]}
-        return d[theme][0]
+        import random
+        return d[theme][random.randint(0,2)]
         
         
     async def run(
@@ -541,10 +542,10 @@ class ActionSummarizeWithPassage(Action):
         tracker: "DialogueStateTracker",
         domain: "Domain",
     ) -> List[Event]:
-        print('dialogue events: {}'.format(tracker.events))
+        #print('dialogue events: {}'.format(tracker.events))
         b = {}
         for e in tracker.events:
-            print('considering -->{}<--'.format(e.as_dict()))
+            #print('considering -->{}<--'.format(e.as_dict()))
             d = e.as_dict()
             if 'parse_data' in d:
                 p = d['parse_data']
@@ -557,7 +558,7 @@ class ActionSummarizeWithPassage(Action):
                             b[n] = 1
         if len(b) > 0:
             p = max(b, key=lambda x: x[1])
-            passage = self.choose_passsaage(p[0])
+            passage = self.choose_passage(p[0])
             text = 'This conversation reminds of the passage {}. This was written by {}, in the work {}.'.format(passage[0], passage[1], passage[2])
         else:
             text = 'I\'m not sure what this conversation reminds me of.'
