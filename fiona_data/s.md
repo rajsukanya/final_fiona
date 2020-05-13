@@ -1,6 +1,7 @@
 ## greet path
 * greet
   - utter_ask_mood
+  - action_restart
 
 ## happiness path
 * greet
@@ -12,6 +13,7 @@
   - action_summarize_with_passage
 * goodbye
   - utter_goodbye
+  - action_restart
 
 ## anger path
 * greet
@@ -23,6 +25,7 @@
   - action_summarize_with_passage
 * goodbye
   - utter_goodbye
+  - action_restart
 
 ## fear path
 * greet
@@ -33,7 +36,8 @@
   - utter_ack_fear
   - action_summarize_with_passage
 * goodbye
-  - utter_goodbye   
+  - utter_goodbye
+  - action_restart
 
 ## anticipation path
 * greet
@@ -44,7 +48,8 @@
   - utter_ack_anticipation
   - action_summarize_with_passage
 * goodbye
-  - utter_goodbye   
+  - utter_goodbye
+  - action_restart
 
 ## disgust path
 * greet
@@ -56,6 +61,7 @@
   - action_summarize_with_passage
 * goodbye
   - utter_goodbye
+  - action_restart
 
 ## sadness path
 * greet
@@ -67,6 +73,7 @@
   - action_summarize_with_passage
 * goodbye
   - utter_goodbye
+  - action_restart
 
 ## surprise path
 * greet
@@ -77,7 +84,8 @@
   - utter_ack_surprise
   - action_summarize_with_passage
 * goodbye
-  - utter_goodbye   
+  - utter_goodbye
+  - action_restart
 
 ## love path
 * greet
@@ -89,6 +97,7 @@
   - action_summarize_with_passage
 * goodbye
   - utter_goodbye
+  - action_restart
 
 ## nervous path
 * greet
@@ -104,6 +113,7 @@
   - utter_noproblem
 * goodbye
   - utter_goodbye
+  - action_restart
 
 ## happiness path 2
 * happiness
@@ -115,6 +125,7 @@
   - utter_noproblem
 * goodbye
   - utter_goodbye
+  - action_restart
    
 ## anger path 2
 * anger
@@ -124,6 +135,7 @@
   - action_summarize_with_passage
 * goodbye
   - utter_goodbye
+  - action_restart
    
 ## fear path 2
 * greet
@@ -133,6 +145,7 @@
 * fear
   - utter_ack_fear
   - action_summarize_with_passage
+  - action_restart
 
 ## anticipation path 2
 * greet
@@ -142,6 +155,7 @@
 * anticipation
   - utter_ack_anticipation
   - action_summarize_with_passage
+  - action_restart
 
 ## disgust path 2
 * greet
@@ -151,6 +165,7 @@
 * disgust
   - utter_ack_disgust
   - action_summarize_with_passage
+  - action_restart
    
 ## sadness path 2
 * greet
@@ -160,6 +175,7 @@
 * sadness
   - utter_ack_sadness
   - action_summarize_with_passage
+  - action_restart
 
 ## surprise path 2
 * greet
@@ -169,6 +185,7 @@
 * surprise
   - utter_ack_surprise
   - action_summarize_with_passage
+  - action_restart
 
 ## love path 2
 * greet
@@ -178,6 +195,7 @@
 * love
   - utter_ack_love
   - action_summarize_with_passage
+  - action_restart
 
 ## nervous path 2
 * greet
@@ -187,6 +205,7 @@
 * nervous
   - utter_ack_nervous
   - action_summarize_with_passage
+  - action_restart
 
 ## happiness path 3
 * greet
@@ -200,6 +219,7 @@
   - action_summarize_with_passage
 * goodbye
   - utter_goodbye
+  - action_restart
 
 ## anger path 3
 * greet
@@ -215,6 +235,7 @@
   - action_summarize_with_passage
 * goodbye
   - utter_goodbye
+  - action_restart
 
 ## fear path 3
 * greet
@@ -228,6 +249,7 @@
   - utter_noproblem
 * goodbye
   - utter_goodbye
+  - action_restart
    
 ## anticipation path 3
 * greet
@@ -241,6 +263,7 @@
   - utter_noproblem
 * goodbye
   - utter_goodbye
+  - action_restart
 
 ## disgust path 3
 * greet
@@ -254,6 +277,7 @@
   - action_summarize_with_passage
 * goodbye
   - utter_goodbye
+  - action_restart
    
 ## sadness path 3
 * greet
@@ -266,7 +290,8 @@
   - utter_ack_sadness
   - action_summarize_with_passage
 * goodbye
-  - utter_goodbye 
+  - utter_goodbye
+  - action_restart
    
 ## surprise path 3
 * greet
@@ -276,6 +301,7 @@
   - action_summarize_with_passage
 * goodbye
   - utter_goodbye
+  - action_restart
    
 ## love path 3
 * love
@@ -285,6 +311,7 @@
   - action_summarize_with_passage
 * goodbye
   - utter_goodbye
+  - action_restart
 
 ## nervous path 3
 * nervous
@@ -296,6 +323,7 @@
   - utter_encouragement
 * thankyou
   - utter_noproblem
+  - action_restart
 
 ## happiness path 4
 * happiness
@@ -305,6 +333,7 @@
   - action_summarize_with_passage
 * goodbye
   - utter_goodbye
+  - action_restart
 
 ## anger path 4
 * greet
@@ -320,6 +349,7 @@
   - action_summarize_with_passage
 * goodbye
   - utter_goodbye
+  - action_restart
 
 ## fear path 4
 * fear
@@ -329,6 +359,7 @@
   - action_summarize_with_passage
 * goodbye
   - utter_goodbye
+  - action_restart
    
 ## anticipation path 4
 * anticipation
@@ -338,6 +369,7 @@
   - utter_noproblem
 * goodbye
   - utter_goodbye
+  - action_restart
 
 ## disgust path 4
 * greet
@@ -351,6 +383,7 @@
   - action_summarize_with_passage
 * goodbye
   - utter_goodbye
+  - action_restart
 
 ## sadness path 4
 * greet
@@ -364,6 +397,7 @@
   - utter_noproblem
 * goodbye
   - utter_goodbye
+  - action_restart
    
 ## surprise path 4
 * surprise
@@ -373,6 +407,7 @@
   - action_summarize_with_passage
 * goodbye
   - utter_goodbye
+  - action_restart
 
 ## love path 4
 * greet
@@ -386,6 +421,7 @@
   - utter_noproblem
 * goodbye
   - utter_goodbye
+  - action_restart
 
 ## nervous path 4
 * greet
@@ -399,6 +435,7 @@
   - action_summarize_with_passage
 * goodbye
   - utter_goodbye
+  - action_restart
 
 ## happiness path 5
 * greet
@@ -412,6 +449,7 @@
   - action_summarize_with_passage
 * thankyou
   - utter_noproblem
+  - action_restart
 
 ## anger path 5
 * greet
@@ -425,6 +463,7 @@
   - utter_noproblem
 * goodbye
   - utter_goodbye
+  - action_restart
 
 ## fear path 5
 * greet
@@ -440,6 +479,7 @@
   - action_summarize_with_passage
 * goodbye
   - utter_goodbye
+  - action_restart
 
 ## anticipation path 5
 * greet
@@ -455,6 +495,7 @@
   - utter_noproblem
 * goodbye
   - utter_goodbye
+  - action_restart
 
 ## disgust path 5
 * disgust
@@ -464,6 +505,7 @@
   - action_summarize_with_passage
 * goodbye
   - utter_goodbye
+  - action_restart
 
 ## sadness path 5
 * greet
@@ -479,6 +521,7 @@
   - action_summarize_with_passage
 * goodbye
   - utter_goodbye
+  - action_restart
 
 ## surprise path 5
 * greet
@@ -492,6 +535,7 @@
   - action_summarize_with_passage
 * goodbye
   - utter_goodbye
+  - action_restart
 
 ## love path 5
 * greet
@@ -505,6 +549,7 @@
   - action_summarize_with_passage
 * goodbye
   - utter_goodbye
+  - action_restart
 
 ## nervous path 5
 * nervous
@@ -514,6 +559,7 @@
   - utter_encouragement
 * thankyou
   - utter_noproblem
+  - action_restart
 
 ## happiness path 6
 * greet
@@ -527,6 +573,7 @@
   - utter_noproblem
 * goodbye
   - utter_goodbye
+  - action_restart
    
 ## anger path 6
 * greet
@@ -544,6 +591,7 @@
   - utter_noproblem
 * goodbye
   - utter_goodbye
+  - action_restart
 
 ## fear path 6
 * greet
@@ -559,6 +607,7 @@
   - action_summarize_with_passage
 * goodbye
   - utter_goodbye
+  - action_restart
 
 ## anticipation path 6
 * greet
@@ -578,6 +627,7 @@
   - utter_noproblem
 * goodbye
   - utter_goodbye
+  - action_restart
 
 ## disgust path 6
 * greet
@@ -589,6 +639,7 @@
   - utter_noproblem
 * goodbye
   - utter_goodbye
+  - action_restart
 
 ## sadness path 6
 * sadness
@@ -596,6 +647,7 @@
   - action_summarize_with_passage
 * thankyou
   - utter_noproblem
+  - action_restart
 
 ## surprise path 6
 * greet
@@ -609,6 +661,7 @@
   - action_summarize_with_passage
 * goodbye
   - utter_goodbye
+  - action_restart
 
 ## love path 6
 * greet
@@ -622,6 +675,7 @@
   - action_summarize_with_passage
 * goodbye
   - utter_goodbye
+  - action_restart
 
 ## nervous path 6
 * greet
@@ -635,6 +689,7 @@
   - utter_noproblem
 * goodbye
   - utter_goodbye
+  - action_restart
 
 ## happiness path 7
 * greet
@@ -646,6 +701,7 @@
   - action_summarize_with_passage
 * goodbye
   - utter_goodbye
+  - action_restart
 
 ## anger path 7
 * anger
@@ -655,6 +711,7 @@
   - action_summarize_with_passage
 * thankyou
   - utter_noproblem
+  - action_restart
    
 ## fear path 7
 * fear
@@ -664,6 +721,7 @@
   - utter_noproblem
 * goodbye
   - utter_goodbye
+  - action_restart
 
 ## anticipation path 7
 * greet
@@ -677,6 +735,7 @@
   - action_summarize_with_passage
 * goodbye
   - utter_goodbye
+  - action_restart
 
 ## disgust path 7
 * greet
@@ -694,6 +753,7 @@
   - utter_noproblem
 * goodbye
   - utter_goodbye
+  - action_restart
 
 ## sadness path 7
 * greet
@@ -703,6 +763,7 @@
   - action_summarize_with_passage
 * goodbye
   - utter_goodbye
+  - action_restart
 
 ## surprise path 7
 * greet
@@ -716,6 +777,7 @@
   - action_summarize_with_passage
 * goodbye
   - utter_goodbye
+  - action_restart
 
 ## love path 7
 * greet
@@ -729,6 +791,7 @@
   - action_summarize_with_passage
 * goodbye
   - utter_goodbye
+  - action_restart
 
 ## nervous path 7
 * greet
@@ -742,6 +805,7 @@
   - action_summarize_with_passage
 * goodbye
   - utter_goodbye
+  - action_restart
 
 ## happiness path 8
 * greet
@@ -755,6 +819,7 @@
   - action_summarize_with_passage
 * thankyou
   - utter_noproblem
+  - action_restart
 
 ## anger path 8
 * greet
@@ -764,6 +829,7 @@
   - action_summarize_with_passage
 * goodbye
   - utter_goodbye
+  - action_restart
 
 ## fear path 8
 * greet
@@ -779,6 +845,7 @@
   - utter_noproblem
 * goodbye
   - utter_goodbye
+  - action_restart
 
 ## anticipation path 8
 * greet
@@ -790,6 +857,7 @@
   - action_summarize_with_passage
 * thankyou
   - utter_noproblem
+  - action_restart
 
 ## disgust path 8
 * disgust
@@ -799,6 +867,7 @@
   - action_summarize_with_passage
 * thankyou
   - utter_noproblem
+  - action_restart
 
 ## sadness path 8
 * greet
@@ -818,6 +887,7 @@
   - utter_noproblem
 * goodbye
   - utter_goodbye
+  - action_restart
 
 ## surprise path 8
 * greet
@@ -831,6 +901,7 @@
   - action_summarize_with_passage
 * goodbye
   - utter_goodbye
+  - action_restart
 
 ## love path 8
 * greet
@@ -840,6 +911,7 @@
   - action_summarize_with_passage
 * thankyou
   - utter_noproblem
+  - action_restart
 
 ## nervous path 8
 * greet
@@ -853,6 +925,7 @@
   - action_summarize_with_passage
 * goodbye
   - utter_goodbye
+  - action_restart
 
 ## happiness path 9
 * greet
@@ -868,6 +941,7 @@
   - action_summarize_with_passage
 * thankyou
   - utter_noproblem
+  - action_restart
 
 ## anger path 9
 * greet
@@ -879,7 +953,7 @@
   - utter_noproblem
 * goodbye
   - utter_goodbye
-
+  - action_restart
 
 ## fear path 9
 * greet
@@ -893,6 +967,7 @@
   - action_summarize_with_passage
 * goodbye
   - utter_goodbye
+  - action_restart
 
 ## anticipation path 9
 * anticipation
@@ -902,6 +977,7 @@
   - action_summarize_with_passage
 * thankyou
   - utter_noproblem
+  - action_restart
 
 ## disgust path 9
 * greet
@@ -917,6 +993,7 @@
   - action_summarize_with_passage
 * goodbye
   - utter_goodbye
+  - action_restart
 
 ## sadness path 9
 * sadness
@@ -930,6 +1007,7 @@
   - action_summarize_with_passage
 * thankyou
   - utter_noproblem
+  - action_restart
 
 ## surprise path 9
 * greet
@@ -939,6 +1017,7 @@
   - action_summarize_with_passage
 * thankyou
   - utter_noproblem
+  - action_restart
 
 ## love path 9
 * love
@@ -948,6 +1027,7 @@
   - utter_noproblem
 * goodbye
   - utter_goodbye
+  - action_restart
 
 ## nervous path 9
 * greet
@@ -965,6 +1045,7 @@
   - utter_noproblem
 * goodbye
   - utter_goodbye
+  - action_restart
 
 ## happiness path 10
 * greet
@@ -978,6 +1059,7 @@
   - action_summarize_with_passage
 * goodbye
   - utter_goodbye
+  - action_restart
 
 ## anger path 10
 * anger
@@ -985,6 +1067,7 @@
   - action_summarize_with_passage
 * goodbye
   - utter_goodbye
+  - action_restart
 
 ## fear path 10
 * greet
@@ -1000,6 +1083,7 @@
   - utter_noproblem
 * goodbye
   - utter_goodbye
+  - action_restart
 
 ## anticipation path 10
 * anticipation
@@ -1009,6 +1093,7 @@
   - action_summarize_with_passage
 * goodbye
   - utter_goodbye
+  - action_restart
 
 ## disgust path 10
 * disgust
@@ -1020,6 +1105,7 @@
   - utter_noproblem
 * goodbye
   - utter_goodbye
+  - action_restart
 
 ## sadness path 10
 * greet
@@ -1035,6 +1121,7 @@
   - action_summarize_with_passage
 * goodbye
   - utter_goodbye
+  - action_restart
 
 ## surprise path 10
 * greet
@@ -1048,6 +1135,7 @@
   - utter_noproblem
 * goodbye
   - utter_goodbye
+  - action_restart
 
 ## love path 10
 * greet
@@ -1061,6 +1149,7 @@
   - action_summarize_with_passage
 * goodbye
   - utter_goodbye
+  - action_restart
 
 ## nervous path 10
 * greet
@@ -1076,8 +1165,8 @@
   - utter_encouragement
 * goodbye
   - utter_goodbye
+  - action_restart
  
-
 ## happiness path 11
 * greet
    - utter_ask_mood
@@ -1096,6 +1185,7 @@
    - utter_noproblem
 * goodbye
    - utter_goodbye
+   - action_restart
    
 ## happiness path 12
 * greet
@@ -1115,6 +1205,7 @@
    - utter_noproblem
 * goodbye
    - utter_goodbye
+   - action_restart
    
 ## happiness path 13
 * greet
@@ -1130,6 +1221,7 @@
    - action_summarize_with_passage
 * goodbye
    - utter_goodbye
+   - action_restart
    
 ## happiness path 14
 * greet
@@ -1149,6 +1241,7 @@
    - utter_noproblem
 * goodbye
    - utter_goodbye
+   - action_restart
 
 ## happiness path 15
 * greet
@@ -1174,6 +1267,7 @@
    - utter_noproblem
 * goodbye
    - utter_goodbye
+   - action_restart
    
 ## anger path 11
 * greet
@@ -1191,6 +1285,7 @@
    - action_summarize_with_passage
 * goodbye
    - utter_goodbye
+   - action_restart
 
 ## anger path 12
 * greet
@@ -1212,7 +1307,7 @@
    - utter_noproblem
 * goodbye
    - utter_goodbye
-
+   - action_restart
 
 ## anger path 13
 * greet
@@ -1232,6 +1327,7 @@
    - utter_noproblem
 * goodbye
    - utter_goodbye
+   - action_restart
 
 ## anger path 14
 * greet
@@ -1249,6 +1345,7 @@
    - action_summarize_with_passage
 * goodbye
    - utter_goodbye
+   - action_restart
 
 ## anger path 15
 * greet
@@ -1270,6 +1367,7 @@
    - utter_noproblem
 * goodbye
    - utter_goodbye
+   - action_restart
 
 ## nervous path 11
 * greet
@@ -1287,6 +1385,7 @@
    - action_summarize_with_passage
 * goodbye
    - utter_goodbye
+   - action_restart
 
 ## nervous path 12
 * greet
@@ -1306,6 +1405,7 @@
    - utter_noproblem
 * goodbye
    - utter_goodbye
+   - action_restart
 
 ## nervous path 13
 * greet
@@ -1327,6 +1427,7 @@
    - utter_noproblem
 * goodbye
    - utter_goodbye
+   - action_restart
 
 ## nervous path 14
 * greet
@@ -1346,7 +1447,7 @@
    - utter_noproblem
 * goodbye
    - utter_goodbye
-
+   - action_restart
 
 ## nervous path 15
 * greet
@@ -1364,6 +1465,7 @@
    - action_summarize_with_passage
 * goodbye
    - utter_goodbye
+   - action_restart
 
 ## surprise path 11
 * greet
@@ -1383,6 +1485,7 @@
    - utter_noproblem
 * goodbye
    - utter_goodbye
+   - action_restart
 
 ## surprise path 12
 * greet
@@ -1400,6 +1503,7 @@
    - action_summarize_with_passage
 * goodbye
    - utter_goodbye
+   - action_restart
 
 ## surprise path 13
 * greet
@@ -1419,6 +1523,7 @@
    - utter_noproblem
 * goodbye
    - utter_goodbye
+   - action_restart
 
 ## surprise path 14
 * greet
@@ -1438,7 +1543,12 @@
    - action_summarize_with_passage
 * goodbye
    - utter_goodbye
+<<<<<<< HEAD
 
+=======
+   - action_restart
+   
+>>>>>>> e753a26fb943f3c607c2256769c29928a3d4ed84
 ## surprise path 15
 * greet
    - utter_ask_mood
@@ -1460,6 +1570,7 @@
    - utter_noproblem
 * goodbye
    - utter_goodbye
+   - action_restart
 
 ## fear path 11
 * greet
@@ -1479,6 +1590,7 @@
    - action_summarize_with_passage
 * goodbye
    - utter_goodbye
+   - action_restart
 
 ## fear path 12
 * greet
@@ -1498,6 +1610,7 @@
    - utter_noproblem
 * goodbye
    - utter_goodbye
+   - action_restart
 
 ## fear path 13
 * greet
@@ -1517,6 +1630,7 @@
    - action_summarize_with_passage
 * goodbye
    - utter_goodbye
+   - action_restart
 
 ## fear path 14
 * greet
@@ -1534,6 +1648,7 @@
    - utter_noproblem
 * goodbye
    - utter_goodbye
+   - action_restart
 
 ## fear path 15
 * greet 
@@ -1553,6 +1668,7 @@
    - action_summarize_with_passage
 * goodbye
    - utter_goodbye
+   - action_restart
  
 ## sadness path 11
 * greet
@@ -1570,7 +1686,7 @@
   - action_summarize_with_passage
 * thankyou
   - utter_noproblem
-
+  - action_restart
  
 ## sadness path 12
 * greet
@@ -1592,6 +1708,7 @@
   - utter_noproblem
 * goodbye
   - utter_goodbye
+  - action_restart
 
 ## sadness path 13
 * greet
@@ -1611,6 +1728,7 @@
   - action_summarize_with_passage
 * thankyou
   - utter_noproblem
+  - action_restart
 
 ## sadness path 14
 * greet
@@ -1630,6 +1748,7 @@
   - action_summarize_with_passage
 * thankyou
   - utter_noproblem
+  - action_restart
 
 ## sadness path 15
 * greet
@@ -1649,6 +1768,7 @@
   - action_summarize_with_passage
 * goodbye
   - utter_goodbye
+  - action_restart
 
 ## love path 11
 * greet
@@ -1670,6 +1790,7 @@
   - utter_noproblem
 * goodbye
   - utter_goodbye
+  - action_restart
 
 ## love path 12
 * greet
@@ -1685,7 +1806,7 @@
   - action_summarize_with_passage
 * goodbye
   - utter_goodbye
-
+  - action_restart
 
 ## love path 13
 * greet
@@ -1703,6 +1824,7 @@
   - action_summarize_with_passage
 * thankyou
   - utter_noproblem
+  - action_restart
 
 ## love path 14
 * greet
@@ -1720,7 +1842,7 @@
   - utter_noproblem
 * goodbye
   - utter_goodbye
-
+  - action_restart
 
 ## love path 15
 * greet
@@ -1740,6 +1862,7 @@
   - action_summarize_with_passage
 * goodbye
   - utter_goodbye
+  - action_restart
 
 ## disgust path 11
 * greet
@@ -1761,6 +1884,7 @@
   - utter_noproblem
 * goodbye
   - utter_goodbye
+  - action_restart
 
 ## disgust path 12
 * greet
@@ -1778,6 +1902,7 @@
   - action_summarize_with_passage
 * goodbye
   - utter_goodbye
+  - action_restart
 
 ## disgust path 13
 * greet
@@ -1793,6 +1918,7 @@
   - action_summarize_with_passage
 * thankyou
   - utter_noproblem
+  - action_restart
 
 ## disgust path 14
 * greet
@@ -1812,6 +1938,7 @@
   - utter_noproblem
 * goodbye
   - utter_goodbye
+  - action_restart
 
 ## disgust path 15
 * greet
@@ -1831,6 +1958,7 @@
   - action_summarize_with_passage
 * thankyou
   - utter_noproblem
+  - action_restart
 
 ## anticipation path 11
 * greet
@@ -1852,6 +1980,7 @@
   - utter_noproblem
 * goodbye
   - utter_goodbye
+  - action_restart
 
 ## anticipation path 12
 * greet
@@ -1869,6 +1998,7 @@
   - action_summarize_with_passage
 * thankyou
   - utter_noproblem
+  - action_restart
 
 ## anticipation path 13
 * greet
@@ -1884,6 +2014,7 @@
   - action_summarize_with_passage
 * goodbye
   - utter_goodbye
+  - action_restart
 
 ## anticipation path 14
 * greet
@@ -1903,6 +2034,7 @@
   - utter_noproblem
 * goodbye
   - utter_goodbye
+  - action_restart
 
 ## anticipation path 15
 * greet
@@ -1922,17 +2054,10 @@
   - action_summarize_with_passage
 * thankyou
   - utter_noproblem
+  - action_restart
 
 ## goodbye path
 * goodbye
   - utter_goodbye
-
-
-
-
-
-
-
-
-
+  - action_restart
 
