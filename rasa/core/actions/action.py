@@ -458,7 +458,7 @@ class ActionSummarizeWithPassage(Action):
          ('You do not know how the people of this country bear malice. It is the boast of some of them that they can keep a stone in their pocket seven years, turn it at the end of that time, keep it seven years longer, and hurl it and hit their mark ‘at last.',
           'Charlotte Bronte',
           'Shirley'),
-         ("From hell’s heart I stab at thee; for hate’s sake I spit my last breath at thee.”,
+         ('From hell\’s heart I stab at thee; for hate\’s sake I spit my last breath at thee.',
           'Herman Melville',
           'Moby Dick)],
           'fear': [
@@ -557,10 +557,11 @@ class ActionSummarizeWithPassage(Action):
                             b[n] = 1
         if len(b) > 0:
             p = max(b, key=lambda x: x[1])
+            passage = self.choose_passsaage(p[0])
+            text = 'This conversation reminds of the passage {}. This was written by {}, in the work {}.'.format(passage[0], passage[1], passage[2])
         else:
-            p = ('happiness', 1.0)
-        passage = self.choose_passsaage(p[0])
-        return [create_bot_utterance({'text': 'This conversation reminds of the passage {}. This was written by {}, in the work {}.'.format(passage[0], passage[1], passage[2])})]
+            text = 'I\'m not sure what this conversation reminds me of.'
+        return [create_bot_utterance({'text': text})]
 
 
 class RemoteAction(Action):
