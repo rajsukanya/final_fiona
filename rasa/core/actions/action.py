@@ -450,7 +450,7 @@ class ActionSummarizeWithPassage(Action):
           'My Antonia'),
          ('Happiness can be found even in the darkest of times if only someone remembers to turn on the light.',
           'J.K. Rowling',
-          'Harry Potter and the Prisoner of Azkaban ')],
+          'Harry Potter and the Prisoner of Azkaban')],
           'anger': [
          ('How often it is that the angry man rages denial of what his inner self is telling him.',
           'Wilkie Collins',
@@ -460,7 +460,7 @@ class ActionSummarizeWithPassage(Action):
           'Shirley'),
          ('From hell\’s heart I stab at thee; for hate\’s sake I spit my last breath at thee.',
           'Herman Melville',
-          'Moby Dick)],
+          'Moby Dick')],
           'fear': [
          ('Whenever I find myself growing grim about the mouth; whenever it is a damp, drizzly November in my soul; whenever I find myself involuntarily pausing before coffin warehouses, and bringing up the rear of every funeral I meet; and especially whenever my hypos get such an upper hand of me, that it requires a strong moral principle to prevent me from deliberately stepping into the street, and methodically knocking people\'s hats off—then, I account it high time to get to sea as soon as I can.',
           'Herman Melville',
@@ -520,7 +520,7 @@ class ActionSummarizeWithPassage(Action):
           'Dracula'),
          ('Love is a temporary madness; it erupts like volcanoes and then subsides. And when it subsides, you have to make a decision: You have to work out whether your roots have so entwined together that it is inconceivable that you should ever part. Because this is what love is. Love is not breathlessness, it is not excitement. It is not the promulgation of promises of eternal passion. That is just being \‘in love,\’ which any fool can do. Love itself is what is left over when being \‘in love\’ has burned away, and this is both an art and a fortunate accident. Those who truly love have roots that grow toward each other underground, and when all the pretty blossoms have fallen from their branches, they find that they are one tree and not two.',
           'Louis de Bernières',
-          'Captain Corelli’s Mandolin')],
+          'Captain Corelli\’s Mandolin')],
           'nervous': [
          ('A nervous silence loosens tongues',
           'Jacqueline Carey',
