@@ -465,7 +465,7 @@ class ActionSummarizeWithPassage(Action):
          ('Whenever I find myself growing grim about the mouth; whenever it is a damp, drizzly November in my soul; whenever I find myself involuntarily pausing before coffin warehouses, and bringing up the rear of every funeral I meet; and especially whenever my hypos get such an upper hand of me, that it requires a strong moral principle to prevent me from deliberately stepping into the street, and methodically knocking people\'s hats off—then, I account it high time to get to sea as soon as I can.',
           'Herman Melville',
           'Moby Dick'),
-         ('Vonnegut could not help looking back, despite the danger of being turned metaphorically into a pillar of salt, into an emblem of the death that comes to those who cannot let go of the past.”
+         ('Vonnegut could not help looking back, despite the danger of being turned metaphorically into a pillar of salt, into an emblem of the death that comes to those who cannot let go of the past.',
           'Kurt Vonnegut',
           'Slaughterhouse-Five'),
          ('Faster, faster, until the thrill of speed overcomes the fear of death.',
@@ -478,7 +478,7 @@ class ActionSummarizeWithPassage(Action):
          ('He ran his finger along my jawline and down my neck. "The wait will be fun, but it\'s not going to be easy."',
           'Amy Plum',
           'Die for Me'),
-         ('Clouds out of control decoct anticipation. What use can any of us have for two moons? The miracle of order has run out and I am left in an unmiraculous city where anything may happen.”
+         ('Clouds out of control decoct anticipation. What use can any of us have for two moons? The miracle of order has run out and I am left in an unmiraculous city where anything may happen.',
           'Samuel R. Delany',
           'Dhalgren')],
           'disgust': [
